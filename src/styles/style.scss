@@ -1,0 +1,17 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import 'includes/reset';
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  @apply bg-slate-900;
+  @apply text-black;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
